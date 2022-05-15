@@ -28,18 +28,20 @@
 
 <body>
   <section class="contact-top">
-    <div class="contact-main">
+    <div class="firsthalf">
+      <h1>Contact Me</h1>
+    </div>
+    <div class="about-content">
+
       <div class="contact-left">
-        <div class="contact-head">
-          <h1>Contact Me</h1>
-        </div>
+
         <div class="contact-text">
-          <p>
+          <p class="bigtext">
             Do you speak Marketing? It's okay if you don't, I speak English
             too!
           </p>
         </div>
-        <div class="contact-icons">
+        <div class="contact-icons contact-icons-sm">
           <div class="contact-container">
             <form action="action_page.php">
               <label for="fname">First Name</label>
@@ -54,7 +56,9 @@
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
 
-              <input type="submit" value="Submit" />
+              <div class="submit-btn">
+                <input type="submit" value="Submit" class="submit-btn" />
+              </div>
             </form>
           </div>
         </div>
@@ -68,23 +72,24 @@
     </div>
 
 
-  </section>
 
-  <footer class="footer">
-    <div class="btmline">
-      <hr />
-    </div>
-    <div class="social-container">
-      <ul class="social-icons">
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-      </ul>
 
-      <div class="footer-copyright">
-        © 2022 Copyright:
-        <a class="copyright-web" href="#halime">halimemerve.com</a>
+    <footer class="footer">
+      <div class="btmline">
+        <hr />
       </div>
-  </footer>
+      <div class="social-container">
+        <ul class="social-icons">
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+
+        <div class="footer-copyright">
+          © 2022 Copyright:
+          <a class="copyright-web" href="#halime">halimemerve.com</a>
+        </div>
+    </footer>
+  </section>
   <script src="js/resp.js"></script>
 </body>
 

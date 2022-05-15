@@ -146,7 +146,7 @@ a.copyright-web :link {
 }
 
 
-.social-head {
+.head {
 
     padding: 5px;
     max-width: 60%;
@@ -191,89 +191,9 @@ a.copyright-web :link {
     margin: auto;
 }
 
-
-.podcast-management {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
-
-.podcast-head {
-    max-width: 60%;
-    margin: auto;
-}
-
-.copywrite {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
-.copywrite-head {
-    max-width: 60%;
-    margin: auto;
-}
-
-.copywrite-pic {
-    max-width: 60%;
-    margin: auto;
-    padding-top: 13px;
-}
-
 .copywrite-para {
     text-align: center;
     padding-top: 2vh;
-}
-
-
-.sales-optimise {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
-.sales-head {
-    max-width: 60%;
-    margin: auto;
-}
-
-.sales-pic {
-    max-width: 60%;
-    margin: auto;
-}
-
-.client-projects {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
-.client-head {
-    max-width: 60%;
-    margin: auto;
-}
-
-.client-pic {
-    max-width: 60%;
-    margin: auto;
-}
-
-.uni-projects {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
-.uni-head {
-    max-width: 60%;
-    margin: auto;
-}
-
-.uni-pic {
-    max-width: 60%;
-    margin: auto;
-}
-
-
-.about-head {
-    text-align: center;
-    padding: 5vh;
 }
 
 .about-sub {
@@ -294,7 +214,7 @@ a.copyright-web :link {
     max-width: 70%;
 }
 
-.about-content2 {
+.content {
     max-width: 75%;
     margin: auto;
 }
@@ -307,15 +227,15 @@ a.copyright-web :link {
     margin: auto;
 }
 
-.contact-head {
-
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
 .contact-icons {
     max-width: 67%;
     padding: 3px;
+}
+
+.submit-btn {
+    margin: auto;
+    display: flex;
+    padding: 10px;
 }
 
 
@@ -328,7 +248,6 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-
     max-height: 130px;
     padding: 12px;
     border: 1px solid #ccc;
@@ -358,79 +277,9 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.social-media-mgmt {
-    justify-content: center;
-}
-
-
-
-.social-mgmt-head {
-    padding: 5vh;
-    max-width: 60%;
-    text-align: center;
-    margin: auto;
-}
-
-.social-mgmt-top {
-    max-width: 75%;
-    margin: auto;
-}
-
-.social-mgmt-head2 {
-    padding-top: 7vh;
-    max-width: 60%;
-    text-align: center;
-    margin: auto;
-}
-
-.podcast-mgmt {
-    justify-content: center;
-    padding-bottom: 2px;
-}
-
-.podcast-mgmt-text {
-    max-width: 75%;
-    margin: auto;
-}
-
-.podcast-mgmt-head {
-    padding: 5vh;
-    max-width: 60%;
-    text-align: center;
-    margin: auto;
-}
-
-.copywriting-head {
-    padding: 5vh;
-    max-width: 60%;
-    text-align: center;
-    margin: auto;
-}
-
-.copywriting-text {
-    max-width: 75%;
-    margin: auto;
-}
 
 .pd-list {
     margin-left: 3vh;
-}
-
-.sales-mgmt-head {
-    padding: 5vh;
-    max-width: 60%;
-    text-align: center;
-    margin: auto;
-}
-
-.sales-mgmt-text {
-    max-width: 75%;
-    margin: auto;
-}
-
-.sales-mgmt {
-    justify-content: center;
-    padding-bottom: 2px;
 }
 
 .mgmt-pic {
@@ -449,31 +298,16 @@ input[type=submit]:hover {
     transition: all 0.5s ease-in-out;
 }
 
-.heading {
-    padding: 5vh;
-    max-width: 60%;
-    text-align: center;
-    margin: auto;
-}
-
-.text {
-    max-width: 75%;
-    margin: auto;
-}
 
 .text-col {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.text-first {
-    max-width: 50%;
-}
 
-.text-second {
-    max-width: 50%;
-}
+
 
 
 
@@ -673,6 +507,12 @@ input[type=submit]:hover {
 
     .contact-main {
         flex-direction: column-reverse;
+    }
+
+    .contact-icons-sm {
+        max-width: 75%;
+        padding: 3px;
+        margin: auto;
     }
 
     .text-col {
