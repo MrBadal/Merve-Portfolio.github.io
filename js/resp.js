@@ -16,6 +16,7 @@ var currentScrollPos = window.pageYOffset;
     document.getElementById("nav-bar").style.top = "0";
   } else {
     document.getElementById("nav-bar").style.top = "-100px";
+    
   }
   prevScrollpos = currentScrollPos;
 }

@@ -503,6 +503,8 @@ input[type=submit]:hover {
 
     .about-sub {
         padding: 0%;
+        margin-left: -20px;
+        padding-top: 5px;
     }
 
 
@@ -536,6 +538,11 @@ input[type=submit]:hover {
 
     .text-second {
         max-width: 100%;
+    }
+
+    .image-50 {
+        max-width: 75%;
+        margin: auto;
     }
 
 }
