@@ -168,6 +168,7 @@ a.copyright-web :link {
 
 .col-pic {
     padding: 4px;
+    margin: auto;
 }
 
 .col-pic:hover {
@@ -194,6 +195,7 @@ a.copyright-web :link {
 .copywrite-para {
     text-align: center;
     padding-top: 2vh;
+    font-style: italic;
 }
 
 .about-sub {
@@ -289,16 +291,7 @@ input[type=submit]:hover {
     max-width: 40%;
 }
 
-.mgmt-pic:hover {
 
-    -ms-transform: scale(1.1);
-    /* IE 9 */
-    -webkit-transform: scale(1.1);
-    /* Safari 3-8 */
-    transform: scale(1.5);
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
 
 
 .text-col {
@@ -316,6 +309,22 @@ input[type=submit]:hover {
 .image-50 {
     max-width: 50%;
     margin: auto;
+}
+
+.image-100 {
+    max-width: 60%;
+    margin: auto;
+}
+
+.image-100:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
 }
 
 
@@ -345,13 +354,14 @@ input[type=submit]:hover {
     padding: 0;
     list-style: none;
     margin: 1em;
+    font-size: 20px;
 }
 
 .social-icons li {
     display: inline-block;
     margin: 0.15em;
     position: relative;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 .social-icons i {
@@ -359,7 +369,11 @@ input[type=submit]:hover {
     position: absolute;
     top: 21px;
     left: 21px;
-    transition: all 265ms ease-out;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
 }
 
 .social-icons a {
@@ -384,9 +398,9 @@ input[type=submit]:hover {
 }
 
 .social-icons a:hover i {
-    transform: scale(2.2);
-    -ms-transform: scale(2.2);
-    -webkit-transform: scale(2.2);
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
     color: #05b3fe;
     background: -webkit-linear-gradient(45deg, #05b3fe, #254897);
     background-clip: border-box;
