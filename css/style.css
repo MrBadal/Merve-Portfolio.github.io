@@ -468,6 +468,13 @@ em {
         left: 0;
     }
 
+    .logo {
+        width: 15%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
 
     .hamburger {
         display: block;
