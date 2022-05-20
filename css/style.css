@@ -327,7 +327,9 @@ input[type=submit]:hover {
 
 }
 
-
+em {
+    color: #05b3fe;
+}
 
 
 
@@ -556,6 +558,11 @@ input[type=submit]:hover {
 
     .image-50 {
         max-width: 75%;
+        margin: auto;
+    }
+
+    .image-100 {
+        max-width: 100%;
         margin: auto;
     }
 
